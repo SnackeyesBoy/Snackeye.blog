@@ -1,6 +1,7 @@
 # Snackeyes.Blog
 
 這雖然已經不是我第一個建立有關自己的網站了，碩一的我也知道，現在邊做邊學好像已經有點慢了，大一讀設計，大二轉電機，光是要硬屆畢業跟推上碩班，就耗費大半時間與力氣，但我還是想把自己得網站架起來，雖然現在看起來還有很陽春，但比起大二時寫的網站已經進步不少了!!
+網站網址 → [https://snackeyesboy.github.io/Snackeyes.blog/](https://snackeyesboy.github.io/Snackeyes.blog/)
 
 ## 技術文件
 
