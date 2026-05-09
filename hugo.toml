@@ -1,7 +1,6 @@
 baseURL = "https://snackeyesboy.github.io/Snackeyes.blog/"
 languageCode = "zh-tw"
 title = "Snackeyes.Blog"
-[params]
-# 加入以下這兩行
+
 relativeURLs = true
 canonifyURLs = false
