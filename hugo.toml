@@ -1,1 +1,3 @@
 baseURL = "https://snackeyesboy.github.io/Snackeyes.blog/"
+relativeURLs = false
+canonifyURLs = true
