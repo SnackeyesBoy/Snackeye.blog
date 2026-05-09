@@ -15,13 +15,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          submodules: recursive  # 如果你有用主題子模組才需要，保留也沒關係
+
       - name: Setup Hugo
-        uses: cpina/github-action-hugo@v1
+        uses: peaceiris/actions-hugo@v3 # 換成這個最穩定的版本
         with:
           hugo-version: 'latest'
-          extended: true
+          extended: true # 你有用到 SCSS/Dart Sass，這行一定要 true
+
       - name: Build
         run: hugo --minify
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
