@@ -1,3 +1,6 @@
 baseURL = "https://snackeyesboy.github.io/Snackeyes.blog/"
 languageCode = "zh-tw"
 title = "Snackeyes.Blog"
+
+uglyURLs = true
+canonifyURLs = true
