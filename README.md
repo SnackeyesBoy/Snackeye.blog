@@ -7,6 +7,7 @@
 ### 編寫語言：HTML , CSS , JavaScript
 ### 框架 : Hugo
 ### 網站結構 :
+```
 ├─.github
 │  └─workflows
 ├─archetypes
@@ -36,3 +37,4 @@
 │  ├─js
 │  └─music
 └─themes
+```
