@@ -1,4 +1,1 @@
 baseURL = "https://snackeyesboy.github.io/Snackeyes.blog/"
-canonifyURLs = true
-relativeURLs = false
-uglyURLs = false  # 設回 false
