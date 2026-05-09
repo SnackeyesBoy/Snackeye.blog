@@ -1,41 +1,39 @@
 # Snackeyes.Blog
 
-這雖然已經不是我第一個建立有關自己的網站了，碩一的我也知道，現在邊做邊學好像已經有點慢了，大一讀設計，大二轉電機，光是要硬屆畢業跟推上碩班，就耗費大半時間與力氣，但我還是想把自己得網站架起來，雖然現在看起來還有很陽春，但比起大二時寫的網站已經進步不少了!!
-網站網址 → [https://snackeyesboy.github.io/Snackeyes.blog/](https://snackeyesboy.github.io/Snackeyes.blog/)
+> **從設計美學到電機邏輯：跨領域的數位筆記**
+> 
+> 雖然目前正值碩一，但我相信邊做邊學永遠不嫌晚。從大一設計轉系至大二電機，歷經了跨領域追趕與碩班推甄的洗禮，這個網站不僅是技術的累積，更是成長的印記。
 
-## 技術文件
+---
 
-### 編寫語言：HTML , CSS , JavaScript
-### 框架 : Hugo
-### 網站結構 :
-```
-├─.github
-│  └─workflows
-├─archetypes
-├─assets
-├─content
-│  ├─other
-│  └─works
-├─data
-├─i18n
-├─layouts
-│  └─_default
-├─public
-│  ├─about
-│  ├─categories
-│  ├─contact
-│  ├─css
-│  ├─img
-│  ├─js
-│  ├─music
-│  ├─other
-│  │  └─other
-│  ├─tags
-│  └─works
-├─static
-│  ├─css
-│  ├─img
-│  ├─js
-│  └─music
-└─themes
-```
+## 🔗 網站連結
+- **個人部落格：** [Snackeyes.blog](https://snackeyesboy.github.io/Snackeyes.blog/)
+
+## 🛠️ 技術開發 (Technical Stack)
+
+*   **開發語言：** `HTML` / `CSS` / `JavaScript`
+*   **靜態網站產生器：** [Hugo](https://gohugo.io/)
+*   **自動化部署：** GitHub Actions (CI/CD)
+*   **框架：**　Hugo
+
+---
+
+## 📂 網站架構 (Project Structure)
+
+```text
+.
+├── .github/workflows/    # GitHub Actions 自動化佈署腳本
+├── archetypes/           # 文章模板內容
+├── assets/               # 需經 Hugo 編譯的資源 (如 SCSS)
+├── content/              # 網站核心內容
+│   ├── other/            # 雜記與生活
+│   └── works/            # 技術作品集
+├── layouts/              # 網頁版面配置 (HTML Templates)
+│   └── _default/
+├── static/               # 靜態資源目錄
+│   ├── css/              # 外部樣式表
+│   ├── img/              # 影像資源
+│   ├── js/               # JavaScript 腳本
+│   └── music/            # 音訊檔案
+├── themes/               # Hugo 佈景主題
+└── public/               # 自動生成之靜態網頁 (佈署分支專用)
