@@ -1,6 +1,3 @@
 baseURL = "https://snackeyesboy.github.io/Snackeyes.blog/"
 languageCode = "zh-tw"
 title = "Snackeyes.Blog"
-
-relativeURLs = true
-canonifyURLs = false
