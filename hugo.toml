@@ -1,6 +1,4 @@
 baseURL = "https://snackeyesboy.github.io/Snackeyes.blog/"
-languageCode = "zh-tw"
-title = "Snackeyes.Blog"
-
-uglyURLs = true
 canonifyURLs = true
+relativeURLs = false
+uglyURLs = false  # 設回 false
