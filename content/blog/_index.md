@@ -1,6 +1,5 @@
 ---
-title: "其他"
+title: "部落格"
 date: 2026-05-09
 layout: "other"
-
 ---
