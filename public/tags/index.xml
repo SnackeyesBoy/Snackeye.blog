@@ -15,33 +15,5 @@
       <guid>http://localhost:1313/Snackeyes.blog/tags/yokohama/</guid>
       <description></description>
     </item>
-    <item>
-      <title>DSP523</title>
-      <link>http://localhost:1313/Snackeyes.blog/tags/dsp523/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Snackeyes.blog/tags/dsp523/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hugo</title>
-      <link>http://localhost:1313/Snackeyes.blog/tags/hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Snackeyes.blog/tags/hugo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mac</title>
-      <link>http://localhost:1313/Snackeyes.blog/tags/mac/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Snackeyes.blog/tags/mac/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Yo</title>
-      <link>http://localhost:1313/Snackeyes.blog/tags/yo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Snackeyes.blog/tags/yo/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

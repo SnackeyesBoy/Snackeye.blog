@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/Snackeyes.blog/</loc>
-    <lastmod>2026-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-12T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Snackeyes.blog/categories/</loc>
+    <lastmod>2026-05-12T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Snackeyes.blog/categories/film/</loc>
+    <lastmod>2026-05-12T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Snackeyes.blog/categories/japan/</loc>
+    <lastmod>2026-05-12T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Snackeyes.blog/categories/life/</loc>
+    <lastmod>2026-05-12T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Snackeyes.blog/tags/</loc>
+    <lastmod>2026-05-12T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Snackeyes.blog/tags/yokohama/</loc>
+    <lastmod>2026-05-12T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Snackeyes.blog/blog/post1/film1/</loc>
+    <lastmod>2026-05-12T12:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Snackeyes.blog/works/</loc>
     <lastmod>2026-05-09T00:00:00+00:00</lastmod>
@@ -16,9 +37,5 @@
   </url><url>
     <loc>http://localhost:1313/Snackeyes.blog/about/</loc>
     <lastmod>2026-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/Snackeyes.blog/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/Snackeyes.blog/tags/</loc>
   </url>
 </urlset>

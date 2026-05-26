@@ -251,29 +251,10 @@ body.light-theme .theme-btn::after {
 }
 
 .scramble-text {
-  font-family: 'Fira Code', monospace;
-  color: var(--color-accent); /* 使用你設定的強調色 */
-  text-shadow: 0 0 8px rgba(0, 204, 153, 0.5); /* 輕微發光 */
-  display: flex;             /* 改用 flex 更好控制置中 */
-  align-items: left;       /* 垂直居中 */
-  justify-content: left;   /* 水平居中 (如果你標題是置中的) */
-  
-  /* 設定一個固定的最小高度，防止推擠 */
-  min-height: 4.5rem; 
-  
-  /* 寬度建議設為 100%，確保它佔滿一整行，不會跟旁邊的東西打架 */
-  width: 100%;
-  
-  /* 避免文字太長時換行導致高度瞬間暴增，可以稍微縮小手機端字體 */
-  line-height: 1.2;
-  text-align: left;
-}
-
-@media (max-width: 768px) {
-  .scramble-text {
-    font-size: 1.4rem;  /* 稍微縮小一點點，減少折行機會 */
-    min-height: 5rem;   /* 確保這個高度足以容納兩行文字 */
-  }
+    font-family: 'Fira Code', monospace;
+    color: var(--color-accent); /* 使用你設定的強調色 */
+    text-shadow: 0 0 8px rgba(0, 204, 153, 0.5); /* 輕微發光 */
+    display: inline-block;
 }
 
 /* 1. 主容器：確保整體置中與底線 */
@@ -790,32 +771,12 @@ body.light-theme .theme-btn::after {
     order: 2; /* 手機版文字在下方 */
   }
 
-  .main-content {
-    display: block;
-    /* 1. 設定最小高度，這個數值請根據你手機上看到兩行文字的高度來微調 */
-    min-height: 75px; 
-    
-    /* 2. 為了讓文字在容器內置中（可選） */
-    margin-bottom: 1.5rem; /* 跟下方圖片保持固定距離 */
-}
-
-/* 針對手機端的特別優化 */
-@media (max-width: 768px) {
-    .hero-title-container {
-        /* 手機版文字可能變大或行距變寬，稍微增加高度 */
-        min-height: 4.5rem; 
-        font-size: 1.5rem; /* 稍微縮小字體也能減少換行機會 */
-    }
-}
-
   .hero-image {
     order: 1; /* 手機版圖片在上方 */
     /* 縮小手機版頭像，看起來更精緻 */
     width: 150px; 
     height: 150px;
   }
-
-  
 
   /* 調整手機版文字樣式 (配合置中) */
   .welcome-title {
