@@ -40,7 +40,7 @@
     </div>
     
     <div class="blog-post-list" style="display: flex; flex-direction: column; gap: 1.5rem;">
-        {{ range .RegularPages.ByDate.Reverse }}
+        {{ range (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}
             <!-- 這裡我們動態把文章擁有的 categories 變成 HTML data 屬性，方便 JS 撈取 -->
             <article class="blog-post-item" 
                      data-categories="{{ if .Params.categories }}{{ delimit .Params.categories ',' }}{{ else }}未分類{{ end }}"
