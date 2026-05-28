@@ -2,28 +2,63 @@
 
 <h1 class="scramble-text" data-value="# Blog">_</h1>
 <p style="opacity: 0.7; margin-bottom: 2rem;">這裡放了我的攝影集與其他文章。</p>
- <div class="profile-header">
-            <div class="banner-box">
-                <img src="/img/2025_08_19_02_17_A7C04754.JPG" class="banner-img" alt="Banner">
-            </div>
 
-            <div class="profile-info-container">
-                <div class="avatar-wrapper">
-                    <img src="/img/A7C07542.JPG" alt="Profile" class="main-avatar">
-                </div> 
-                <div class="text-content">
-                    <h1 class="user-id">@ Hundred_layman<span class="real-name"></span></h1>
-                    <p class="user-tags">Street Photography</p>
-                    <p class="typing-text">“百隅十哉。羊川草齋。遊戲人間”</p>
-                </div>
-            </div>
+<div class="profile-header">
+    <div class="banner-box">
+        <img src="/img/2025_08_19_02_17_A7C04754.JPG" class="banner-img" alt="Banner">
     </div>
-    <section class="section">
-        <p class="user-tags"># Sony A7C</p>
-        <p class="user-tags"># DSC-T20</p>
-    </section>
-    <section class="section">
-        <h3>2025</h3>
-    </section>
+
+    <div class="profile-info-container">
+        <div class="avatar-wrapper">
+            <img src="/img/A7C07542.JPG" alt="Profile" class="main-avatar">
+        </div> 
+        <div class="text-content">
+            <h1 class="user-id">@ Hundred_layman<span class="real-name"></span></h1>
+            <p class="user-tags">Street Photography</p>
+            <p class="typing-text">“百隅十哉。羊川草齋。遊戲人間”</p>
+        </div>
+    </div>
+</div>
+
+<section class="section">
+    <p class="user-tags"># Sony A7C</p>
+    <p class="user-tags"># DSC-T20</p>
+</section>
+
+<!-- 文章列表區塊 -->
+<section class="section">
+    <h3 style="margin-bottom: 1.5rem; border-bottom: 1px solid #333; padding-bottom: 0.5rem; color: var(--color-accent);">文章列表</h3>
+    
+    <div class="blog-post-list" style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <!-- 核心魔法：動態撈取 content/blog/ 底下的所有文章 -->
+        {{ range .Pages }}
+            <article class="blog-post-item" style="padding: 1rem; background: rgba(255,255,255,0.02); border-radius: 6px; border: 1px solid rgba(255,255,255,0.05); transition: all 0.3s ease;">
+                
+                <!-- 文章日期 -->
+                <span class="post-date" style="font-family: 'Fira Code', monospace; color: #666; font-size: 0.85rem; display: block; margin-bottom: 0.3rem;">
+                    // {{ .Date.Format "2006-01-02" }}
+                </span>
+                
+                <!-- 文章連結與標題 -->
+                <a href="{{ .Permalink }}" style="text-decoration: none; font-size: 1.3rem; color: #fff; font-weight: bold; transition: color 0.2s;" onmouseover="this.style.color='var(--color-accent)'" onmouseout="this.style.color='#fff'">
+                    {{ .Title }}
+                </a>
+                
+                <!-- 如果有大類別，就顯示出來 -->
+                {{ if .Params.categories }}
+                    <div class="post-categories" style="margin-top: 0.5rem;">
+                        {{ range .Params.categories }}
+                            <span style="background: rgba(0, 204, 153, 0.1); color: var(--color-accent); font-size: 0.75rem; padding: 2px 6px; border-radius: 4px; margin-right: 5px;">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                {{ end }}
+                
+            </article>
+        {{ else }}
+            <!-- 萬一真的沒抓到文章（或是都在草稿狀態）的備用提示 -->
+            <p style="color: #444; font-style: italic; font-size: 0.9rem;">_ 尚無發布文章。快去後台寫一篇吧！</p>
+        {{ end }}
+    </div>
+</section>
 
 {{ end }}
