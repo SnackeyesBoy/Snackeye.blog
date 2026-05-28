@@ -4,7 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snackeyes.Blog - 後台管理系統</title>
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </head>
-  <body></body>
+  <body>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    
+    <script>
+      // 核心修正：強制指定 config.yml 的絕對路徑，避開 GitHub Pages 的 404 陷阱
+      window.CMS_CONFIG = {
+        config_url: 'https://snackeyesboy.github.io/Snackeyes.blog/admin/config.yml'
+      };
+    </script>
+  </body>
 </html>
