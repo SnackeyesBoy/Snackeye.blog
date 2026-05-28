@@ -1,10 +1,15 @@
+# backend:
+#   name: github
+#   repo: SnackeyesBoy/Snackeyes.blog
+#   branch: main
+#   base_url: https://decap-cms-oauth-provider.vercel.app
+#   auth_endpoint: /api/auth
+#   client_id: "Ov23liE90vVa4boGmCcT"
 backend:
   name: github
   repo: SnackeyesBoy/Snackeyes.blog
   branch: main
-  base_url: https://decap-cms-oauth-provider.vercel.app
-  auth_endpoint: /api/auth
-  client_id: "Ov23liE90vVa4boGmCcT"
+  auth_type: implicit # 改用隱私權杖授權，不需要經過第三方伺服器
 
 media_folder: "static/img"
 public_folder: "/img"
