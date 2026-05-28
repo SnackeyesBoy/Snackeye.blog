@@ -10,7 +10,7 @@ backend:
   repo: SnackeyesBoy/Snackeyes.blog
   branch: main
   # auth_type: implicit # 改用隱私權杖授權，不需要經過第三方伺服器
-  local_backend: true
+  # local_backend: true
 
 media_folder: "static/img"
 public_folder: "/img"
