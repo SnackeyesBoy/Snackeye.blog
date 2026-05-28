@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>部落格 on </title>
+    <title>Blogs on </title>
     <link>http://localhost:1313/Snackeyes.blog/blog/</link>
-    <description>Recent content in 部落格 on </description>
+    <description>Recent content in Blogs on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 May 2026 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 00:38:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/Snackeyes.blog/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Test</title>
+      <link>http://localhost:1313/Snackeyes.blog/blog/test/</link>
+      <pubDate>Fri, 29 May 2026 00:38:00 +0000</pubDate>
+      <guid>http://localhost:1313/Snackeyes.blog/blog/test/</guid>
+      <description>&lt;p&gt;123123&lt;/p&gt;&#xA;&lt;p&gt;今天今天&lt;img src=&#34;http://localhost:1313/Snackeyes.blog/img/2025_08_19_02_17_A7C04754.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>橫濱。橫須賀</title>
-      <link>http://localhost:1313/Snackeyes.blog/blog/post1/film1/</link>
+      <link>http://localhost:1313/Snackeyes.blog/blog/film1/</link>
       <pubDate>Tue, 12 May 2026 12:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/Snackeyes.blog/blog/post1/film1/</guid>
+      <guid>http://localhost:1313/Snackeyes.blog/blog/film1/</guid>
       <description>&lt;h2 id=&#34;橫濱橫須賀&#34;&gt;橫濱。橫須賀&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sony-a7c&#34;&gt;•Sony A7C&lt;/h3&gt;&#xA;&lt;h3 id=&#34;nikkor-s-auto-50mm-f14&#34;&gt;•Nikkor-s Auto 50mm f1.4&lt;/h3&gt;&#xA;&lt;p&gt;![]&lt;/p&gt;</description>
     </item>
   </channel>

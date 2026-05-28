@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>測試 on </title>
+    <link>http://localhost:1313/Snackeyes.blog/tags/%E6%B8%AC%E8%A9%A6/</link>
+    <description>Recent content in 測試 on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 May 2026 00:38:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/Snackeyes.blog/tags/%E6%B8%AC%E8%A9%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/Snackeyes.blog/blog/post1/test/</link>
+      <pubDate>Fri, 29 May 2026 00:38:00 +0000</pubDate>
+      <guid>http://localhost:1313/Snackeyes.blog/blog/post1/test/</guid>
+      <description>&lt;p&gt;123123&lt;/p&gt;&#xA;&lt;p&gt;今天今天&lt;img src=&#34;http://localhost:1313/Snackeyes.blog/img/2025_08_19_02_17_A7C04754.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
