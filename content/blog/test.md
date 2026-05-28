@@ -6,7 +6,6 @@ layout: single
 image: /img/550774793_18320440537209823_7015142223140905602_n.jpg
 categories:
   - 測試
-  - japan
 tags:
   - 測試
 ---
