@@ -39,7 +39,10 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "作品名稱", name: "title", widget: "string" }
-      - { label: "日期", name: "date", widget: "datetime" }
+      - { label: "標題", name: "title", widget: "string" }
+      - { label: "發布日期", name: "date", widget: "datetime" }
       - { label: "是否為草稿", name: "draft", widget: "boolean", default: false }
+      - { label: "版面配置", name: "layout", widget: "hidden", default: "single" }
+      - { label: "大類別 (Categories)", name: "categories", widget: "list" }
+      - { label: "標籤 (Tags)", name: "tags", widget: "list" }
       - { label: "文章內文", name: "body", widget: "markdown" }
