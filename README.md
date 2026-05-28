@@ -15,6 +15,7 @@
 *   **靜態網站產生器：** [Hugo](https://gohugo.io/)
 *   **自動化部署：** GitHub Actions (CI/CD)
 *   **框架：**　Hugo
+*   **後臺管理:** Sveltia CMS
 
 ---
 
