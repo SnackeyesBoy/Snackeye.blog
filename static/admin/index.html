@@ -4,20 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snackeyes.Blog - 後台管理系統</title>
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </head>
   <body>
-    <script>
-      // 2. 強制在前端覆蓋登入行為，不允許它彈窗連到外部伺服器
-      document.addEventListener("DOMContentLoaded", function() {
-        // 監聽 CMS 的載入狀態
-        window.CMS.registerEventListener({
-          name: 'preInit',
-          handler: () => {
-            console.log('CMS Pre-Init: Forcing Implicit Auth Token Mode');
-          }
-        });
-      });
-    </script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </body>
 </html>
