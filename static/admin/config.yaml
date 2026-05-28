@@ -1,0 +1,36 @@
+backend:
+  name: github
+  repo: SnackeyesBoy/Snackeyes.blog # 你的 GitHub 帳號/專案名稱
+  branch: main
+  base_url: https://decap-cms-oauth-provider.vercel.app # 使用中介伺服器
+  auth_endpoint: /api/auth
+  client_id: "Ov23liE90vVa4boGmCcT"
+
+media_folder: "static/img" # 上傳圖片時，要存到哪個資料夾
+public_folder: "/img"      # 網頁讀取圖片時的前綴網址
+
+collections:
+  - name: "other"
+    label: "其他 (部落格文章)"
+    folder: "content/other" # 你的文章存放路徑
+    create: true # 是否允許在後台新增文章
+    slug: "{{slug}}" # 存檔時的檔名規則
+    fields: # 後台要輸入的欄位
+      - { label: "標題", name: "title", widget: "string" }
+      - { label: "發布日期", name: "date", widget: "datetime" }
+      - { label: "是否為草稿", name: "draft", widget: "boolean", default: false }
+      - { label: "版面配置", name: "layout", widget: "hidden", default: "single" }
+      - { label: "大類別 (Categories)", name: "categories", widget: "list" }
+      - { label: "標籤 (Tags)", name: "tags", widget: "list" }
+      - { label: "文章內文", name: "body", widget: "markdown" }
+
+  - name: "works"
+    label: "作品列"
+    folder: "content/works"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "作品名稱", name: "title", widget: "string" }
+      - { label: "日期", name: "date", widget: "datetime" }
+      - { label: "是否為草稿", name: "draft", widget: "boolean", default: false }
+      - { label: "文章內文", name: "body", widget: "markdown" }
